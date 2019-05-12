@@ -1,0 +1,15 @@
+{
+  "name": "generator-umbraco-cms",
+  "version": "0.1.0",
+  "description": "Installs umbraco from scratch",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "uuid": "^3.3.2",
+    "yeoman-generator": "^1.0.0"
+  }
+}
