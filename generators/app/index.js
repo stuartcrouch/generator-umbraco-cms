@@ -63,6 +63,13 @@ this.log(chalk.bold.blue("                                    `'.---.'`         
           store: true,
         },
         {
+          type: 'input',
+          name: 'companyName',
+          message: 'Your company name',
+          default: 'company',
+          store: true,
+        },
+        {
           type: 'password',
           name: 'backOfficePassword',
           message: 'backOfficePassword',

@@ -14,7 +14,7 @@ module.exports = function buildOptions(props) {
   const date = now.substr(0, dateLength);
   return {
     name,
-    companyName: "company",
+    companyName: props.companyName,
     projUUID: uuid.v1().toUpperCase(),
     libUUID: uuid.v1().toUpperCase(),
     slnUUID: uuid.v1().toUpperCase(),
