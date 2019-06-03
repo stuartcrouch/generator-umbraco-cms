@@ -1,6 +1,6 @@
 # generator-umbraco-cms
 downloads, nuget restores, builds and installs umbraco 7
-
+End result, you load visual studio and click run and never see the install wizard.
 
 > A Yeoman generator for umbraco 7 CMS
 
@@ -23,7 +23,7 @@ npm install -g yo umbraco-cms
 Create a directory for your new app.
 
 ```bash
-mkdir new-umbraco; cd new-umbracp/
+mkdir new-umbraco; cd new-umbraco/
 ```
 
 Generate your app and follow the prompts.
@@ -32,4 +32,9 @@ Generate your app and follow the prompts.
 yo umbraco-cms
 ```
 
-Start your brand new app! 💥
+Load visual studio and run Umbraco! 💥
+
+
+## Future plans
+
+I'd like feedback. Is it worth adding a way to specify the database type?
